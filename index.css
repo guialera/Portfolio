@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: azure;
+    margin: 0px
+}
+
+p{
+    font-size: 15px;
+}
+
+.headerDiv{
+    background-image: url("https://i.ibb.co/MVRFRfc/IMG-0901.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    color:white
+}
+
+.headerImg{
+    border-radius: 50%;
+}
