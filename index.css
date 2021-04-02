@@ -1,20 +1,193 @@
 body{
     text-align: center;
     background-color: azure;
-    margin: 0px
+    margin: 0px;
 }
 
 p{
     font-size: 15px;
 }
 
+i{
+    font-size: 29px;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
 .headerDiv{
     background-image: url("https://i.ibb.co/MVRFRfc/IMG-0901.jpg");
     background-repeat: no-repeat;
     background-size: 100% 500px;
-    color:white
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .headerImg{
     border-radius: 50%;
+}
+
+.fa-github{
+    margin-right: 10px;
+}
+
+.aboutMeDiv{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+@media (max-width: 1200px){
+    .headerImg{
+        height: 250px;
+        width: 250px
+    }
+
+    .educationDiv > p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .aboutMeDiv{
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .projectsDiv > p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 1000px){
+    .headerDiv{
+        background-size: 100% 400px;
+    }
+
+    .headerImg{
+        height: 200px;
+        width: 200px
+    }
+
+    .educationDiv > p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .aboutMeDiv{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .projectsDiv > p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .linkImg{
+        height: 350px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 699px){
+    .headerDiv{
+        background-size: 100% 350px;
+    }
+}
+
+@media (max-width: 799px){
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .headerDiv{
+        background-size: 100% 225px;
+    }
+
+    .headerDiv > h1 {
+        font-size: 15px
+    }
+
+    .headerDiv > h2 {
+        font-size: 12px
+    }
+
+    .headerDiv > h3 {
+        font-size: 10px
+    }
+
+    .headerImg{
+        height: 100px;
+        width: 100px
+    }
+
+    i{
+        font-size: 15px;
+    }
+
+    .educationDiv > p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .projectsDiv > p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .linkImg{
+        height: 250px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .headerDiv{
+        background-size: 100% 160px;
+    }
+
+    .headerDiv > h1 {
+        font-size: 10px
+    }
+
+    .headerDiv > h2 {
+        font-size: 8px
+    }
+
+    .headerDiv > h3 {
+        font-size: 6px
+    }
+
+    .headerImg{
+        height: 75px;
+        width: 75px
+    }
+
+    i{
+        font-size: 10px
+    }
+
+    .linkImg{
+        height: 200px;
+        width: 300px;
+    }
 }
