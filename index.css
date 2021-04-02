@@ -19,6 +19,20 @@ a{
     color: black; 
 }
 
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin-top: 0;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 .headerDiv{
     background-image: url("https://i.ibb.co/MVRFRfc/IMG-0901.jpg");
     background-repeat: no-repeat;
@@ -36,9 +50,33 @@ a{
     margin-right: 10px;
 }
 
-.aboutMeDiv{
+.educationDiv > h1{
+    background-color: black;
+    color: white;
+}
+
+.aboutMeDiv > p{
     padding-left: 400px;
     padding-right: 400px;
+}
+
+.aboutMeDiv > h1{
+    background-color: black;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.projectsDiv > h1{
+    background-color: black;
+    color: white
+}
+
+@media (max-width: 1700px){
+    .aboutMeDiv > p {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
 }
 
 @media (max-width: 1200px){
@@ -52,7 +90,7 @@ a{
         padding-right: 25px;
     }
 
-    .aboutMeDiv{
+    .aboutMeDiv > p {
         padding-left: 75px;
         padding-right: 75px;
     }
@@ -64,6 +102,12 @@ a{
 }
 
 @media (max-width: 1000px){
+    hr{
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 1px;
+    }
+
     .headerDiv{
         background-size: 100% 400px;
     }
@@ -78,7 +122,7 @@ a{
         padding-right: 25px;
     }
 
-    .aboutMeDiv{
+    .aboutMeDiv > p{
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -118,8 +162,12 @@ a{
         font-size: 10px;
     }
 
+    .bold{
+        font-size: 15px;
+    }
+
     .headerDiv{
-        background-size: 100% 225px;
+        background-size: 100% 250px;
     }
 
     .headerDiv > h1 {
@@ -161,8 +209,12 @@ a{
 
 @media (max-width: 375px){
 
+    .bold{
+        font-size: 12px;
+    }
+
     .headerDiv{
-        background-size: 100% 160px;
+        background-size: 100% 170px;
     }
 
     .headerDiv > h1 {
