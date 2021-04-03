@@ -1,11 +1,26 @@
 body{
     text-align: center;
-    background-color: azure;
+    background-color: whitesmoke;
     margin: 0px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+h3{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 
 p{
-    font-size: 15px;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
 }
 
 i{
@@ -43,6 +58,10 @@ hr{
     padding-bottom: 10px;
 }
 
+.headerDiv > h3{
+    font-size: 15px;
+}
+
 .headerImg{
     border-radius: 50%;
 }
@@ -51,8 +70,23 @@ hr{
     margin-right: 10px;
 }
 
+.fa-github:hover{
+    font-size: 34px;
+    color: lightgray;
+}
+
 .fa-linkedin{
     margin-right: 10px;
+}
+
+.fa-linkedin:hover{
+    font-size: 34px;
+    color: #0073b1;
+}
+
+.fa-file:hover{
+    font-size: 34px;
+    color: darksalmon;
 }
 
 .educationDiv > h1{
@@ -196,6 +230,18 @@ hr{
         font-size: 15px;
     }
 
+    .fa-github:hover{
+        font-size: 20px;
+    }
+
+    .fa-linkedin:hover{
+        font-size: 20px;
+    }
+
+    .fa-file:hover{
+        font-size: 20px;
+    }
+
     .educationDiv > p {
         padding-left: 25px;
         padding-right: 25px;
@@ -241,6 +287,18 @@ hr{
 
     i{
         font-size: 10px
+    }
+
+    .fa-github:hover{
+        font-size: 15px;
+    }
+
+    .fa-linkedin:hover{
+        font-size: 15px;
+    }
+
+    .fa-file:hover{
+        font-size: 15px;
     }
 
     .linkImg{
