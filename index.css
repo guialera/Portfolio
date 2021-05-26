@@ -111,6 +111,19 @@ hr{
     color: white
 }
 
+.linkImgMobile{
+    margin-bottom: 20px;
+}
+
+.appStoreLink{
+    display: inline-block; 
+    overflow: hidden;
+    border-radius: 13px; 
+    width: 250px; 
+    height: 83px;
+    margin-bottom: 0px;
+}
+
 @media (max-width: 1700px){
     .aboutMeDiv > p {
         padding-left: 200px;
@@ -174,6 +187,17 @@ hr{
     .linkImg{
         height: 350px;
         width: 500px;
+    }
+
+    .linkImgMobile{
+        margin-bottom: 20px;
+        height: 300px;
+        width: 150px;
+    }
+
+    .appStoreLink{
+        height: 40px;
+        width: 125px;
     }
 }
 
